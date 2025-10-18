@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi - Anif Burhanudin</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #005f73;
+            color: white;
+            padding: 30px 0;
+            margin-bottom: 30px;
+        }
+
+        img {
+            border-radius: 10px;
+            margin: 15px 0;
+            width: 200px;
+            height: auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        main {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #005f73;
+        }
+
+        ul {
+            text-align: left;
+            display: inline-block;
+            margin: 10px auto 20px auto;
+        }
+
+        table {
+            width: 90%;
+            margin: 0 auto 20px auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #999;
+        }
+
+        th {
+            background-color: #0a9396;
+            color: white;
+        }
+
+        td, th {
+            padding: 10px;
+            text-align: center;
+        }
+
+        a {
+            color: #0a9396;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        form {
+            text-align: left;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 6px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            resize: none;
+        }
+
+        input[type="submit"] {
+            background-color: #005f73;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0a9396;
+        }
+
+        footer {
+            background-color: #005f73;
+            color: white;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Anif Burhanudin</h1>
+        <p><i>Teknisi IT | Hardware Specialist | Calon Cyber Security Expert</i></p>
+    </header>
+
+    <main>
+        <!-- Paragraf Deskripsi -->
+        <section>
+            <p>
+                Halo, saya <b>Anif Burhanudin</b>, seorang senior teknisi IT yang berfokus di bidang <b>hardware specialist</b>. 
+                Saya memiliki ketertarikan besar pada bidang <b>jaringan</b> dan <b>cyber security</b>. 
+                Saat ini saya melanjutkan studi di <b>Universitas Teknologi Bandung</b> jurusan <b>Teknik Informatika</b> 
+                dan bekerja di <b>PT Digital Robotik Indonesia</b> sebagai <b>Master Hardware</b>.
+            </p>
+        </section>
+
+        <!-- Foto Diri -->
+        <section>
+            <img src="C:\Users\Adminbur\Pictures\S209-2504-00926-S209-2504-00926_Process_Foto Utama 1_-_DSCF5787.jpg" alt="Foto Anif Burhanudin">
+        </section>
+
+        <!-- Daftar Hobi -->
+        <section>
+            <h2>Hobi dan Minat</h2>
+            <ul>
+                <li>Ngoding dan membuat aplikasi web</li>
+                <li>Fotografi</li>
+                <li>Mendengarkan musik</li>
+                <li>Berolahraga</li>
+            </ul>
+        </section>
+
+        <!-- Riwayat Pendidikan -->
+        <section>
+            <h2>Riwayat Pendidikan</h2>
+            <table>
+                <tr>
+                    <th>Tahun</th>
+                    <th>Institusi</th>
+                    <th>Keterangan</th>
+                </tr>
+                <tr>
+                    <td>2015 - 2018</td>
+                    <td>SMP Al-Masthuriyah</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>2018 - 2021</td>
+                    <td>SMK Pasim Plus</td>
+                    <td>Jurusan Teknik Komputer dan Jaringan</td>
+                </tr>
+                <tr>
+                    <td>2023 - Sekarang</td>
+                    <td>Universitas Teknologi Bandung</td>
+                    <td>S1 Teknik Informatika</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Media Sosial -->
+        <section>
+            <h2>Temukan Saya di</h2>
+            <p>
+                <a href="https://www.linkedin.com/in/anif-burhanudin-a98319214/">LinkedIn</a> |
+                <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                <a href="https://github.com/anifbur">GitHub</a>
+            </p>
+        </section>
+
+        <!-- Formulir Pengunjung -->
+        <section>
+            <h2>Hubungi Saya</h2>
+            <form>
+                <label for="nama">Nama Anda:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama">
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan Anda..."></textarea>
+
+                <br>
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><i>Terima kasih telah mengunjungi halaman profil saya!</i></p>
+    </footer>
+</body>
+</html>
